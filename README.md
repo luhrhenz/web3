@@ -21,3 +21,6 @@ git clone https://github.com/BlockheaderWeb3-Community/cohort-8.git
 cd cohort-8
 ```
 
+#### Code Formatting
+This repository uses Prettier for formatting. Install the Prettier extension in your editor and enable Format on Save.
+
