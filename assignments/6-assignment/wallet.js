@@ -9,7 +9,7 @@ const secp256k1 = require("secp256k1");
 const { keccak256 } = require("ethereumjs-util");
 const crypto = require("crypto");
 
-const entropyBuffer = crypto.randomBytes(16);
+const entropyBuffer = crypto.randomBytes(32);
 
 const words = bip39.entropyToMnemonic(entropyBuffer);
 console.log("Mnemonic:\n", words);
